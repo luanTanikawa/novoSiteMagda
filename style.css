@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*
 .active {
     background-color: #8cd0e3 !important;
     border-left: 5px solid #8cd0e3 !important;
@@ -62,7 +62,7 @@ nav li:hover {
     display: flex;
     flex-direction: column;
 }
-
+*/
 
 @media (min-width: 320px) {
     nav {
@@ -88,7 +88,7 @@ nav li:hover {
 
     .section-1 .logo {
         position: absolute;
-        top: 110px;
+        top: 130px;
         width: calc(100% - 35px);
         margin: 0px 15px;
     }
