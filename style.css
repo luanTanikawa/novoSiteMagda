@@ -1,141 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*
-.active {
-    background-color: #8cd0e3 !important;
-    border-left: 5px solid #8cd0e3 !important;
-    border-right: 5px solid #8cd0e3 !important;
-}
 
 
+@media(min-width: 320px) {
 
-
-
-
-
-
-main {
-    width: 100%;
-    margin: auto;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    width: 80px;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-    list-style: none;
-}
-
-nav li {
-    margin-top: 20px;
-    padding: 10px 0;
-    width: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 5px solid #fff;
-    border-left: 5px solid #fff;
-}
-
-nav li:hover {
-    border-right: 5px solid #8cd0e3;
-}
-
-.sections-area {
-    margin-left: 80px;
-    display: flex;
-    flex-direction: column;
-}
-*/
-
-@media (min-width: 320px) {
-    nav {
-        display: none;
-    }
-
-    .sections-area {
-    margin-left: 0;
-    }
-
-    .section-1 {
-
-        background-image: url('imagens/bg320p.png');
-        background-size: cover;
+    .section1 {
         height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0px 15px;
-
-    }
-
-    .section-1 .logo {
-        position: absolute;
-        top: 130px;
-        width: calc(100% - 35px);
-        margin: 0px 15px;
-    }
-
-    .section-1 .botao-area {
+        max-height: 670px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff9fd;
+    }
+    
+    
+    .section1 .logo {
+        width: 95%;
+        max-width: 405px;
+        margin-top: 80px;
+    }
+    
+    .section1 .button-area {
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-
-    .section-1 .botao-area h4 {
+    
+    .section1 .button-area h4{
         font-family: Montserrat;
-        margin-bottom: 10px;
+        font-weight: 400;
     }
- 
-    .section-1 .botao-area a {
+    
+    .section1 .button-area a{
+        font-family: Montserrat;
+        font-weight: 400;
         text-decoration: none;
-        font-family: Montserrat;
-        font-weight: bold;
         padding: 15px;
-        border-radius: 40px;
         background-color: #8cd0e3;
+        border-radius: 25px;
+        margin-top: 15px;
         color: #fff;
     }
 
-    .section-1 .magda-foto1 {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: calc(100% - 35px);
+    .section1 .picture-magda {
+        width: 90%;       
+        max-width: 405px;
+        margin-left: auto;
     }
+
 }
 
+@media(min-width: 390px) {
 
+    .section1 {
+        max-height: 100vh;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .section1 .picture-magda {
+        width: 100%;       
+    }
+}
