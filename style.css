@@ -118,7 +118,7 @@ nav li:hover {
         position: absolute;
         bottom: 0;
         right: 0;
-        width: calc(85% - 35px);
+        width: calc(100% - 35px);
     }
 }
 
