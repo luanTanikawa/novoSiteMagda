@@ -14,7 +14,7 @@
         max-height: 670px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: #fff9fd;
     }
@@ -23,7 +23,6 @@
     .section1 .logo {
         width: 95%;
         max-width: 405px;
-        margin-top: 80px;
     }
     
     .section1 .button-area {
