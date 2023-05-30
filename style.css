@@ -6,6 +6,20 @@
     padding: 0;
 }
 
+@keyframes grow {
+    0% {
+        font-size: 16px;
+    }
+
+    50% {
+        font-size: 18px;
+    }
+
+    100% {
+        font-size: 16px;
+    }
+}
+
 
 @media(min-width: 320px) {
 
@@ -18,7 +32,6 @@
         align-items: center;
         background-color: #fff9fd;
     }
-    
     
     .section1 .logo {
         width: 95%;
@@ -52,15 +65,22 @@
         margin-top: 70px;
     }
     
+    .section1 .button-area{
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
     .section1 .text-area a{
         font-family: Montserrat;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: none;
         padding: 15px;
         background-color: #8cd0e3;
         border-radius: 25px;
         margin: 10px 0px;
         color: #fff;
+        animation: grow 3s infinite;
     }
 
     .section1 .picture-magda {
@@ -69,7 +89,6 @@
         margin-left: auto;
         margin-bottom: 30px;
     }
-
 }
 
 @media(min-width: 390px) {
