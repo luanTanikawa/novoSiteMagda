@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #fff9fd;
+}
+
 @keyframes grow {
     0% {
         font-size: 16px;
@@ -87,6 +91,7 @@
         width: 90%;       
         max-width: 315px;
         margin-left: auto;
+        margin-top: 15px;
         margin-bottom: 30px;
     }
 
