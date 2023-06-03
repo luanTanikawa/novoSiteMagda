@@ -207,10 +207,7 @@ body {
         border-radius: 5px;
     }
 
-    .section3 .missao {
-        margin-top: 20px;
-    }
-
+    .section3 .missao,
     .section3 .valores{
         margin-top: 40px;
     }
