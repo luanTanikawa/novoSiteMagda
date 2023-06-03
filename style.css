@@ -69,13 +69,13 @@ body {
         margin-top: 70px;
     }
     
-    .section1 .button-area{
+    .button-area{
         height: 60px;
         display: flex;
         align-items: center;
     }
 
-    .section1 .text-area a{
+    .button-area a{
         font-family: Montserrat;
         font-weight: 500;
         text-decoration: none;
@@ -162,7 +162,7 @@ body {
         text-align: justify;
     }
 
-    .section3 .content h2{
+    .section3 .content .title{
         border-bottom: 2px solid #000;
     }
 
@@ -205,11 +205,40 @@ body {
         color: #fff;
         padding: 5px;
         border-radius: 5px;
-
     }
 
+    .section3 .missao {
+        margin-top: 20px;
+    }
 
+    .section3 .valores{
+        margin-top: 40px;
+    }
 
+    .section3 .missaoTitle,
+    .section3 .valoresTitle {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .section3 .bolinha-esquerda {
+        width: 35px;
+        height: 35px;
+        background-color: #8cd0e3;
+        border-radius: 50%;
+        margin-top: -5px;
+        margin-right: -25px;
+    }
+
+    .section3 .missao p,
+    .section3 .valores p {
+        margin-top: 20px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .section3 .valores p {
+        margin-bottom: 30px;
 
 
 
