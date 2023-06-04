@@ -398,6 +398,48 @@ body {
         font-size: 14px;
         text-align: left;
     }
+
+    .section6 .agradecimento {
+        margin: 20px 0px;
+        line-height: 24px;
+    }
+
+
+
+
+
+
+    .section7 .content {
+        padding: 50px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        text-align: justify;
+    }
+
+    .section7 .content .title{
+        border-bottom: 2px solid #000;
+    }
+
+
+    .section7 .duvidas-area {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .section7 .duvidas-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .section7 .duvidas-box img {
+        width: 30px;
+    }
+
+
 }
 
 
