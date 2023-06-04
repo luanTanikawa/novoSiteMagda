@@ -287,27 +287,23 @@ body {
         border-bottom: 2px solid #000;
     }
 
-    .section5 .content .comoFunciona {
+    .section5 .content .comoFunciona{
         margin-top: 80px;
         width: 100%;
     }
 
-    .section5 .content .comoFuncionaTitle {
-        display: flex;
-        margin-left: 100px;
-    }
-
-    .section5 .content .bolinha-meio {
-        width: 35px;
-        height: 35px;
-        background-color: #8cd0e3;
-        border-radius: 50%;
-        margin-top: -5px;
-        margin-right: -110px;
-    }
-
-    .section5 .content .comoFunciona p {
+    .section5 .content .confiavelEEficaz {
         margin-top: 30px;
+    } 
+
+    .section5 .content .comoFuncionaTitle h2,
+    .section5 .content .confiavelEEficazTitle h2{
+        font-size: 20px;
+    }
+
+    .section5 .content .comoFunciona p,
+    .section5 .content .confiavelEEficaz p {
+        margin-top: 10px;
         line-height: 24px;
         font-size: 14px;
     }
