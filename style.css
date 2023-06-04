@@ -237,6 +237,7 @@ body {
 
     .section3 .valores p {
         margin-bottom: 30px;
+    } 
 
 
 
@@ -245,7 +246,94 @@ body {
 
 
 
+
+
+
+
+    .section4{
+        background-color: #cff5ff;
+    }
+
+    .section4 .content {
+        padding: 50px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        text-align: justify;
+    }
+
+    .section4 .content .title{
+        border-bottom: 2px solid #000;
+    }
+
+
+
+
+
+
+
+
+    .section5 .content {
+        padding: 50px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        text-align: justify;
+    }
+
+    .section5 .content .title{
+        border-bottom: 2px solid #000;
+    }
+
+    .section5 .content .comoFunciona {
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .section5 .content .comoFuncionaTitle {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .section5 .content .bolinha-meio {
+        width: 35px;
+        height: 35px;
+        background-color: #8cd0e3;
+        border-radius: 50%;
+        margin-top: -5px;
+        margin-right: -110px;
+    }
+
+    .section5 .content .comoFunciona p {
+        margin-top: 30px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .section5 .picture-atendimento{
+        width: 100%;
+        margin: 40px 0px;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width: 390px) {
     .section1 {
@@ -266,12 +354,6 @@ body {
         max-width: 375px;
         margin-left: auto;
     }
-
-
-
-
-
-
 
     .section2 .content .title strong {
         font-size: 24px;
