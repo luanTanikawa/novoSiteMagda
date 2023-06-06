@@ -267,6 +267,87 @@ body {
         border-bottom: 2px solid #000;
     }
 
+    .section4 .content .oQueE{
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .section4 .content .minhaAbordagem {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .section4 .content .oQueETitle h2,
+    .section4 .content .minhaAbordagemTitle h2{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .section4 .content .oQueE p,
+    .section4 .content .minhaAbordagem p{
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+
+    .section4 .content .TCC {
+        margin: 50px 0px;
+        width: 100%;
+    }
+
+    .section4 .content .TCC h2{
+        text-align: center;
+    }
+
+    
+    .section4 .content .TCC .tcc-box-area {
+        margin-top: 30px;
+    }
+
+    .section4 .content .TCC .box {
+        margin: 20px 0px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .section4 .content .TCC .box .botao{
+        background-color: #9bc9ff;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section4 .content .TCC .box img{
+        width: 35px;
+    }
+
+    .section4 .content .TCC .box p{
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 14px;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
