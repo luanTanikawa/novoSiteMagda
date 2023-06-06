@@ -188,11 +188,6 @@ body {
         margin-top: 0px;
     }
 
-    .section3 .myself p:nth-child(2),
-    .section3 .myself p:nth-child(3) {
-        display: none;
-    }
-
     .section3 .botao-verMais {
         display: flex;
         justify-content: flex-end;
@@ -265,11 +260,12 @@ body {
 
     .section4 .content .title{
         border-bottom: 2px solid #000;
+        font-weight: bold;
     }
 
     .section4 .content .oQueE{
-        margin-top: 80px;
         width: 100%;
+        margin-top: 20px;
     }
 
     .section4 .content .minhaAbordagem {
@@ -277,10 +273,8 @@ body {
         width: 100%;
     }
 
-    .section4 .content .oQueETitle h2,
     .section4 .content .minhaAbordagemTitle h2{
         font-size: 20px;
-        margin-left: 5px;
     }
 
     .section4 .content .oQueE p,
@@ -298,11 +292,7 @@ body {
 
     .section4 .content .TCC h2{
         text-align: center;
-    }
-
-    
-    .section4 .content .TCC .tcc-box-area {
-        margin-top: 30px;
+        font-size: 20px;
     }
 
     .section4 .content .TCC .box {
@@ -311,9 +301,13 @@ body {
         display: inline-block;
     }
 
+    .section4 .content .TCC .tcc-box-area {
+        margin-top: 10px;
+    }
+
     .section4 .content .TCC .box .botao{
-        background-color: #9bc9ff;
-        padding: 10px;
+        background-color: #fff9fd;
+        padding: 5px;
         font-weight: bold;
         text-align: center;
         display: flex;
