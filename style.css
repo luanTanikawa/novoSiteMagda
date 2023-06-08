@@ -28,8 +28,7 @@ body {
 @media(min-width: 320px) {
 
     .section1 {
-        height: 100vh;
-        max-height: 670px;
+        height: 670px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -569,7 +568,11 @@ body {
 }
 
 
-
+@media (min-height: 895px) {
+    .section1 {
+        height: 895px !important;
+    }
+}
 
 
 
@@ -577,23 +580,24 @@ body {
     .section7 .duvidas-box img {
         width: 35px;
     }
+
+
+}
+
+
+@media(min-width: 360px) {
+    .section1 {
+        height: 100vh;
+    }
 }
 
 
 
-
-
-
-
-
 @media(min-width: 390px) {
-    .section1 {
-        max-height: 100vh;
-    }
-
+    
     .section1 .logo {
         margin-top: 80px;
-        max-width: 500px;
+        max-width: 525px;
     }
 
     .section1 .text-area p{
@@ -619,18 +623,19 @@ body {
     }
 
     .section1 .text-area h3 {
-        font-size: 21px;
+        font-size: 26px;
     }
 
     .section1 .picture-magda {
         max-width: 465px;
     }
     .section1 .text-area h4 {
-        margin-top: 40px;
+        margin-top: 65px;
+        font-size: 18px;
     }
 
     .section1 .text-area p {
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .section2 .content .title strong {
@@ -668,11 +673,11 @@ body {
     }
 
     .section3 .valores {
-        margin-left:10px;
+        margin-left:20px;
     }
 
     .section3 .missao {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .section4 .content .Tratamento {
