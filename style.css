@@ -27,15 +27,19 @@ body {
 
 @media(min-width: 320px) {
 
-    .section1 {
-        height: 670px;
+    .section1 .content {
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: #fff9fd;
     }
-    
+
+    .section1 .text-img {
+        width: 100%;
+    }
+
     .section1 .logo {
         width: 95%;
         max-width: 330px;
@@ -45,9 +49,9 @@ body {
     .section1 .text-area {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        margin-top: 60px;
     }
     
     .section1 .text-area h3{
@@ -65,7 +69,7 @@ body {
     .section1 .text-area h4{
         font-family: Montserrat;
         font-weight: 400;
-        margin-top: 70px;
+        margin-top: 40px;
     }
     
     .button-area{
@@ -86,10 +90,14 @@ body {
         animation: grow 3s infinite;
     }
 
+    .section1 .picture-area {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .section1 .picture-magda {
         width: 90%;       
         max-width: 315px;
-        margin-left: auto;
         margin-top: 15px;
     }
 
@@ -103,7 +111,6 @@ body {
 
     .section2 {
         background-color: #cff5ff;
-        margin-top: 50px;
     }
 
     .section2 .content {
@@ -300,7 +307,7 @@ body {
     }
 
     .section4 .content .TCC .tcc-box-area {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .section4 .content .TCC .box .botao{
@@ -340,6 +347,7 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin: 30px 0px;
     }
 
     .section4 .content .Tratamento .tratamento-area img {
@@ -349,7 +357,7 @@ body {
 
     .section4 .content .Tratamento .tratamento-box {
         background-color: #fff9fd;
-        margin: 20px;
+        margin: 5px;
         max-width: 400px;
     }
 
@@ -470,7 +478,7 @@ body {
         width: 100%;
         max-width: 400px;
         background-color: #fff9fd;
-        margin: 20px;
+        margin: 5px;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -569,7 +577,7 @@ body {
 
 
 @media (min-height: 895px) {
-    .section1 {
+    .section1 .content{
         height: 895px !important;
     }
 }
@@ -586,7 +594,7 @@ body {
 
 
 @media(min-width: 360px) {
-    .section1 {
+    .section1 .content {
         height: 100vh;
     }
 }
@@ -596,18 +604,20 @@ body {
 @media(min-width: 390px) {
     
     .section1 .logo {
-        margin-top: 80px;
-        max-width: 525px;
+        max-width: 415px;
     }
 
     .section1 .text-area p{
         font-size: 14px;
     }
 
+    .section1 .text-area h4 {
+        margin-top: 70px;
+    }
+
     .section1 .picture-magda {
         width: 90%;       
         max-width: 375px;
-        margin-left: auto;
     }
 
     .section2 .content .title strong {
@@ -718,4 +728,25 @@ body {
     .section7 .duvidas-box {
         font-size: 18px;
     }
+}
+
+
+@media (min-width: 1024px) {
+
+    .section1 .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section1 .text-img {
+        display: flex;
+        width: 100%;
+    }
+
+    .section2 {
+        margin-top: 0px;
+    }
+
+
 }
