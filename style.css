@@ -632,6 +632,10 @@ body {
         font-size: 28px;
     }
 
+    .section1 .logo {
+        max-width: 600px;
+    }
+
     .section1 .text-area h3 {
         font-size: 26px;
     }
@@ -736,7 +740,7 @@ body {
     .section1 .content {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .section1 .text-img {
