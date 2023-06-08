@@ -92,7 +92,6 @@ body {
         max-width: 315px;
         margin-left: auto;
         margin-top: 15px;
-        margin-bottom: 30px;
     }
 
 
@@ -105,6 +104,7 @@ body {
 
     .section2 {
         background-color: #cff5ff;
+        margin-top: 50px;
     }
 
     .section2 .content {
@@ -143,7 +143,7 @@ body {
     .section2 .video {
         margin-top: 20px;
         width: 100%;
-        max-width: 350px;
+        max-width: 475px;
         height: 225px;
         background-color: black;
     }
@@ -338,7 +338,6 @@ body {
     }
 
     .section4 .content .Tratamento .tratamento-area {
-        margin-top: 30px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -594,7 +593,7 @@ body {
 
     .section1 .logo {
         margin-top: 80px;
-        max-width: 405px;
+        max-width: 500px;
     }
 
     .section1 .text-area p{
@@ -611,4 +610,107 @@ body {
         font-size: 24px;
     }
 
+}
+
+@media (min-width: 768px) {
+    
+    .title {
+        font-size: 28px;
+    }
+
+    .section1 .text-area h3 {
+        font-size: 21px;
+    }
+
+    .section1 .picture-magda {
+        max-width: 465px;
+    }
+    .section1 .text-area h4 {
+        margin-top: 40px;
+    }
+
+    .section1 .text-area p {
+        font-size: 16px;
+    }
+    
+    .section2 .content .title strong {
+        font-size: 28px;
+    }
+
+    .section2 .content .title {
+        font-size: 16px;
+    }
+
+    .section2 .content p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+    .section2 .video-area {
+        font-size: 16px;
+    }
+
+    .section2 .video {
+        max-width: 475px;
+        height: 280px;
+    }
+    
+
+    .section3 .myself p {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+
+    .section3 .valores-area {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .section3 .valores {
+        margin-left:10px;
+    }
+
+    .section3 .missao {
+        margin-right: 10px;
+    }
+
+    .section4 .content .Tratamento {
+        line-height: 32px;
+        font-size: 16px
+    }
+
+    .section4 .content .minhaAbordagemTitle h2 {
+        font-size: 21px;
+    }
+
+    .section4 .content .oQueE p, 
+    .section4 .content .minhaAbordagem p {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    .section4 .content .TCC .box .botao {
+        font-size: 18px;
+    }
+
+    .section5 .content .comoFuncionaTitle h2, 
+    .section5 .content .confiavelEEficazTitle h2 {
+        font-size: 21px;
+    }
+
+    .section5 .content .comoFunciona p, 
+    .section5 .content .confiavelEEficaz p {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    .section6 .agradecimento {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    .section7 .duvidas-box {
+        font-size: 18px;
+    }
 }
