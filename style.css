@@ -24,6 +24,30 @@ body {
     }
 }
 
+main {
+    max-width: 1800px;
+    margin: auto;
+}
+
+nav {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 80px;
+    border-right: 2px solid #8cd0e3;
+}
+
+nav ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul a{
+    margin-bottom: 30px;
+}
 
 @media(min-width: 320px) {
 
@@ -300,21 +324,27 @@ body {
         text-align: center;
     }
 
+
+    .section4 .content .TCC .tcc-box-area {
+        margin: 50px 0px ;
+    }
+
     .section4 .content .TCC .box {
         margin: 5px 0px;
         width: 100%;
-        display: inline-block;
-    }
-
-    .section4 .content .TCC .tcc-box-area {
-        margin-top: 30px;
-    }
-
-    .section4 .content .TCC .box .botao{
         background-color: #fff9fd;
         padding: 5px;
         font-weight: bold;
-        text-align: center;
+        max-width: 550px;
+    }
+
+    .section4 .content .TCC .box:nth-child(2) {
+        margin: 40px 0px 40px auto;
+
+    }
+
+    .section4 .content .TCC .box .botao{
+        margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -347,7 +377,7 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 30px 0px;
+        margin: 50px auto 30px auto;
     }
 
     .section4 .content .Tratamento .tratamento-area img {
@@ -372,7 +402,6 @@ body {
     .section4 .content .Tratamento .tratamento-text-box p {
         line-height: 24px;
         font-size: 14px;
-        text-align: left;
     }
     
 
@@ -656,7 +685,7 @@ body {
     }
     
     .section2 .content .title strong {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .section2 .content .title {
@@ -669,7 +698,7 @@ body {
     }
     
     .section2 .video-area {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .section2 .video {
@@ -737,6 +766,22 @@ body {
 
 
 @media (min-width: 1024px) {
+    
+    nav {
+        display: block;
+    }
+
+    .sections-area {
+        margin-left: 80px;
+    }
+
+    .section2 .content,
+    .section3 .content,
+    .section4 .content,
+    .section5 .content {
+        padding: 50px 30px;
+    }
+
 
     .section1 .content {
         display: flex;
@@ -754,7 +799,7 @@ body {
         width: 100%;
         height: 400px;
         margin-top: 70px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .section1 .text-area {
