@@ -27,11 +27,7 @@ duvidasBtns.map((e) => {
         } else {
             img.classList.remove('girar')
         }
-        
-        
     })
-
-    
 })
 
 
