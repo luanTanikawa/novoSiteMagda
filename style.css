@@ -8,13 +8,13 @@
 }
 
 .mostrar {
-    display: block;
+    display: block !important;
 }
 
-body {
-    background-color: #fff9fd;
-    
+.girar {
+    rotate: 45deg;
 }
+
 
 @keyframes grow {
     0% {
@@ -28,6 +28,11 @@ body {
     100% {
         font-size: 16px;
     }
+}
+
+body {
+    background-color: #fff9fd;
+    
 }
 
 nav {
@@ -68,14 +73,6 @@ nav ul li img {
     width: 40px;
     height: 40px;
 }
-
-.active {
-    background-color: #8cd0e3;
-}
-
-
-
-
 
 @media(min-width: 320px) {
 
