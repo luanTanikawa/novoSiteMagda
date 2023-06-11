@@ -4,10 +4,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+.mostrar {
+    display: block;
 }
 
 body {
     background-color: #fff9fd;
+    
 }
 
 @keyframes grow {
@@ -47,10 +53,11 @@ nav ul a{
 
 nav ul li {
     width: 80px;
-    height: 45px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px 0px;
 }
 
 nav ul li:hover {
@@ -60,6 +67,10 @@ nav ul li:hover {
 nav ul li img {
     width: 40px;
     height: 40px;
+}
+
+.active {
+    background-color: #8cd0e3;
 }
 
 
@@ -344,7 +355,6 @@ nav ul li img {
 
     .section4 .content .TCC .tcc-box-area {
         margin: 50px auto ;
-        max-width: 1200px;
     }
 
     .section4 .content .TCC .box {
@@ -353,7 +363,7 @@ nav ul li img {
         background-color: #fff9fd;
         padding: 5px;
         font-weight: bold;
-        max-width: 550px;
+        max-width: 635px;
     }
 
     .section4 .content .TCC .box:nth-child(2) {
@@ -366,6 +376,7 @@ nav ul li img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
     }
 
     .section4 .content .TCC .box img{
@@ -376,7 +387,10 @@ nav ul li img {
         margin-top: 10px;
         line-height: 24px;
         font-size: 14px;
+        font-weight: lighter;
         display: none;
+        padding: 5px;
+        
     }
 
 
@@ -395,7 +409,7 @@ nav ul li img {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 50px auto 30px auto;
+        margin: 30px auto;
     }
 
     .section4 .content .Tratamento .tratamento-area img {
@@ -605,18 +619,28 @@ nav ul li img {
         flex-direction: column;
         margin-top: 50px;
         width: 100%;
-        max-width: 600px;
     }
 
-    .section7 .duvidas-box {
+
+    .section7 .duvidas-box .botao {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-top: 30px;
         width: 100%;
+        cursor: pointer;
     }
 
     .section7 .duvidas-box img {
         width: 30px;
+    }
+
+    .section7 .duvidas-box p {
+        margin-top: 10px;
+        padding: 10px;
+        line-height: 28px;
+        display: none;
+        background-color: #cff5ff;
     }
 
 
@@ -801,7 +825,8 @@ nav ul li img {
     .section2 .content,
     .section3 .content,
     .section4 .content,
-    .section5 .content {
+    .section5 .content,
+    .section7 .content {
         max-width: 1300px;
         margin: auto;
     }
