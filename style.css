@@ -81,7 +81,7 @@ nav ul li img {
 .section6 .content,
 .section7 .content,
 footer .content {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -362,6 +362,7 @@ footer .content {
 
     .section4 .content .TCC .tcc-box-area {
         margin: 50px auto ;
+        max-width: 950px;
     }
 
     .section4 .content .TCC .box {
@@ -858,7 +859,7 @@ footer .content {
     }
 
     .section1 .logo {
-        max-width: 600px;
+        max-width: 550px;
     }
 
     .section1 .text-img {
@@ -907,31 +908,13 @@ footer .content {
 }
 
 @media (min-width: 1270px) {
-
-    .section1 .text-area {
-        width: 62%;
-    }
-
-    .section1 .picture-area {
-        flex: 1;
-    }
-
     .section1 .picture-magda {
         max-width: 640px;
     }
 }
 
-@media (min-width: 1340px) {
-    .section4 .content .Tratamento .tratamento-area .tratamento-box:nth-child(4) {
-        display: none;
-    }
-}
 
-@media (min-width: 1440px) {
-    .section1 .text-img {
-        height: 500px;
-    }
-    
+@media (min-width: 1440px) {    
     .section2 .video {
         max-width: 820px;
         height: 450px;
