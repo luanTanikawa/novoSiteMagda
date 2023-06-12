@@ -221,6 +221,9 @@ footer .content {
         height: 100%;
     }
 
+    .ytp-embed:not(.ad-showing) .ytp-title-text {
+        display: none !important;
+      }
 
 
 
@@ -228,7 +231,7 @@ footer .content {
 
 
 
-    
+
 
     .section3 .content {
         padding: 50px 15px;

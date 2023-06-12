@@ -31,6 +31,33 @@ duvidasBtns.map((e) => {
 })
 
 
+var iframe = document.getElementById('video-iframe');
+
+// Event listener para quando o vídeo é carregado
+iframe.addEventListener('load', function() {
+  var player = new YT.Player(iframe);
+
+  // Event listener para quando o estado do player muda
+  player.addEventListener('onStateChange', function(event) {
+    // Verifica se o vídeo está pausado
+    if (event.data === YT.PlayerState.PAUSED) {
+      // Remove a classe ytp-title-text
+      removeTitleText();
+    }
+  });
+});
+
+// Função para remover a classe ytp-title-text
+function removeTitleText() {
+  var videoContainer = document.getElementsByClassName('video-container')[0];
+  var titleText = videoContainer.querySelector('.ytp-embed:not(.ad-showing) .ytp-title-text');
+
+  if (titleText) {
+    titleText.classList.remove('ytp-title-text');
+  }
+}
+
+
 
 
 
