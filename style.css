@@ -15,7 +15,6 @@
     rotate: 45deg;
 }
 
-
 @keyframes grow {
     0% {
         font-size: 16px;
@@ -74,15 +73,25 @@ nav ul li img {
     height: 40px;
 }
 
-@media(min-width: 320px) {
+.section1 .content,
+.section2 .content,
+.section3 .content,
+.section4 .content,
+.section5 .content,
+.section6 .content,
+.section7 .content,
+footer .content {
+    max-width: 1500px;
+    margin: auto;
+}
 
+@media(min-width: 320px) {
     .section1 .content {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #fff9fd;
+        margin: 0px auto 30px auto;
     }
 
     .section1 .text-img {
@@ -92,7 +101,7 @@ nav ul li img {
     .section1 .logo {
         width: 95%;
         max-width: 330px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     
     .section1 .text-area {
@@ -101,6 +110,7 @@ nav ul li img {
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-top: 40px;
     }
     
     .section1 .text-area h3{
@@ -119,6 +129,7 @@ nav ul li img {
         font-family: Montserrat;
         font-weight: 400;
         margin-top: 40px;
+        font-size: 16px;
     }
     
     .button-area{
@@ -202,7 +213,6 @@ nav ul li img {
         height: 225px;
         background-color: black;
     }
-
 
 
 
@@ -340,7 +350,7 @@ nav ul li img {
 
 
     .section4 .content .TCC {
-        margin: 50px 0px;
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -360,11 +370,10 @@ nav ul li img {
         background-color: #fff9fd;
         padding: 5px;
         font-weight: bold;
-        max-width: 635px;
     }
 
     .section4 .content .TCC .box:nth-child(2) {
-        margin: 40px 0px 40px auto;
+        margin: 40px 0px 40px 0px;
 
     }
 
@@ -542,6 +551,11 @@ nav ul li img {
         flex-direction: column;
     }
 
+    .section6 .depoimento-box:nth-child(1),
+    .section6 .depoimento-box:nth-child(2) {
+        display: none;
+    }
+
     .section6 .depoimento-box .data{
         display: flex;
         justify-content: space-between;
@@ -616,6 +630,7 @@ nav ul li img {
         flex-direction: column;
         margin-top: 50px;
         width: 100%;
+        max-width: 950px;
     }
 
 
@@ -640,14 +655,30 @@ nav ul li img {
         background-color: #cff5ff;
     }
 
-
-}
-
-
-@media (min-height: 895px) {
-    .section1 .content{
-        height: 895px !important;
+    footer {
+        background-color: #8cd0e3;
+        padding: 15px;
     }
+
+    footer .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+
+    }
+
+    footer .content .mensagem .atencao {
+        font-size: 18px;
+    }
+
+    footer .content .mensagem p{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
 }
 
 
@@ -661,19 +692,18 @@ nav ul li img {
 }
 
 
-@media(min-width: 360px) {
-    .section1 .content {
-        height: 100vh;
-    }
-}
-
 
 
 @media(min-width: 390px) {
     
     .section1 .logo {
-        max-width: 550px;
+        max-width: 450px;
     }
+
+    .section1 .text-area {
+        margin-top: 70px;
+    }
+
 
     .section1 .text-area p{
         font-size: 14px;
@@ -801,6 +831,11 @@ nav ul li img {
         max-width: 350px;
     }
 
+    .section6 .depoimento-box:nth-child(1),
+    .section6 .depoimento-box:nth-child(2) {
+        display: block;
+    }
+
     .section6 .agradecimento {
         line-height: 32px;
         font-size: 16px;
@@ -813,30 +848,7 @@ nav ul li img {
 }
 
 
-@media (min-width: 1024px) {
-    
-    .sections-area{
-        margin-left: 80px;
-    }
-    
-    .section2 .content,
-    .section3 .content,
-    .section4 .content,
-    .section5 .content,
-    .section7 .content {
-        max-width: 1300px;
-        margin: auto;
-    }
-
-
-
-
-
-    nav {
-        display: block;
-    }
-
-    
+@media (min-width: 1024px) {  
 
     .section1 .content {
         display: flex;
@@ -846,7 +858,7 @@ nav ul li img {
     }
 
     .section1 .logo {
-        margin-top: 0px;
+        max-width: 600px;
     }
 
     .section1 .text-img {
@@ -858,6 +870,7 @@ nav ul li img {
 
     .section1 .text-area {
         width: 55%;
+        margin-top: 0px;
     }
 
     .section1 .picture-area {
@@ -894,17 +907,6 @@ nav ul li img {
 }
 
 @media (min-width: 1270px) {
-    .section1 .content {
-        height: 850px !important;
-    }
-
-    .section1 .logo {
-        max-width: 600px;
-    }
-
-    .section1 .text-img {
-        height: 450px;
-    }
 
     .section1 .text-area {
         width: 62%;
