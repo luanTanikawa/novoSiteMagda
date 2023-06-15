@@ -142,17 +142,25 @@ footer .content {
         font-family: Montserrat;
         font-weight: 500;
         text-decoration: none;
-        padding: 15px;
+        padding: 10px;
         background-color: #8cd0e3;
         border-radius: 25px;
-        margin: 10px 0px;
         color: #fff;
-        animation: grow 3s infinite;
+        font-size: 14px;
+        transition: ease 0.5s;
+    }
+
+    .button-area a:hover {
+        padding: 20px;
+        font-size: 22px;
+        border-radius: 32px;
     }
 
     .section1 .picture-area {
         display: flex;
         justify-content: flex-end;
+        filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.123));
+
     }
 
     .section1 .picture-magda {
@@ -210,10 +218,11 @@ footer .content {
         position: relative;
         width: 100%;
         padding-bottom: 56.25%;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .section2 .video iframe{
+        filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.123));
         position: absolute;
         top: 0;
         left: 0;
@@ -252,6 +261,8 @@ footer .content {
         max-width: 300px;
         margin-top: 35px;
         border-radius: 50%;
+        filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.253));
+
     }
 
     .section3 .myself {
@@ -308,6 +319,7 @@ footer .content {
         margin-top: 20px;
         line-height: 24px;
         font-size: 14px;
+        text-align: left;
     }
 
     .section3 .valores p {
@@ -381,15 +393,16 @@ footer .content {
     }
 
     .section4 .content .TCC .box {
-        margin: 5px 0px;
         width: 100%;
         background-color: #fff9fd;
-        padding: 5px;
         font-weight: bold;
+
+        box-shadow: 0px 0px 10px #00000073;
+        border-radius: 10px;
     }
 
     .section4 .content .TCC .box:nth-child(2) {
-        margin: 40px 0px 40px 0px;
+        margin: 40px 0px;
     }
 
     .section4 .content .TCC .box .botao{
@@ -398,6 +411,7 @@ footer .content {
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        padding: 10px;
     }
 
     .section4 .content .TCC .box img{
@@ -405,12 +419,11 @@ footer .content {
     }
 
     .section4 .content .TCC .box p{
-        margin-top: 10px;
         line-height: 24px;
         font-size: 14px;
         font-weight: lighter;
         display: none;
-        padding: 5px;
+        padding: 10px;
     }
 
 
@@ -438,6 +451,7 @@ footer .content {
     }
 
     .section4 .content .Tratamento .tratamento-box {
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.295));
         background-color: #fff9fd;
         margin: 5px;
         max-width: 400px;
@@ -454,6 +468,7 @@ footer .content {
     .section4 .content .Tratamento .tratamento-text-box p {
         line-height: 24px;
         font-size: 14px;
+        text-align: left;
     }
     
 
@@ -713,6 +728,14 @@ footer .content {
 
 @media(min-width: 390px) {
     
+
+    .button-area a{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+
     .section1 .logo {
         max-width: 450px;
     }
@@ -752,6 +775,14 @@ footer .content {
 }
 
 @media (min-width: 768px) {
+    
+    .button-area{
+        margin-top: 10px;
+    }
+    
+    .button-area a{      
+        font-size: 18px;
+    }
     
     .title {
         font-size: 28px;
@@ -825,6 +856,11 @@ footer .content {
         font-size: 18px;
     }
 
+    .section4 .content .TCC .box p {
+        font-size: 16px;
+        
+    }
+
     .section4 .content .Tratamento .tratamento-box {
         max-width: 355px;
     }
@@ -863,6 +899,11 @@ footer .content {
 
 @media (min-width: 1024px) {  
 
+    .button-area a{       
+        font-size: 20px;
+    }
+   
+   
     .section1 .content {
         display: flex;
         flex-direction: column;
