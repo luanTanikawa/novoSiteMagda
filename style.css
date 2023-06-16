@@ -7,10 +7,6 @@
     scroll-behavior: smooth;
 }
 
-.mostrar {
-    display: block !important;
-}
-
 .girar {
     rotate: 45deg;
 }
@@ -86,6 +82,7 @@ footer .content {
 }
 
 @media(min-width: 320px) {
+    
     .section1 .content {
         display: flex;
         flex-direction: column;
@@ -416,6 +413,7 @@ footer .content {
 
     .section4 .content .TCC .box img{
         width: 35px;
+        transition: ease 0.5s;
     }
 
     .section4 .content .TCC .box p{
@@ -667,6 +665,10 @@ footer .content {
         box-shadow: 0px 0px 10px #00000073;
         margin-bottom: 20px;
         border-radius: 10px;
+        overflow: hidden;
+        height: 55px;
+
+        transition: ease-in-out 0.5s;
     }
 
     .section7 .duvidas-box .botao {
@@ -679,7 +681,8 @@ footer .content {
     }
 
     .section7 .duvidas-box img {
-        width: 30px;
+        width: 35px;
+        transition: ease 0.5s;
     }
 
     .section7 .duvidas-box p {
@@ -688,7 +691,6 @@ footer .content {
         border-bottom-left-radius: 10px;
         line-height: 28px;
         background-color: #cff5ff;
-        display: none;
     }
 
     footer {
