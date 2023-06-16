@@ -6,13 +6,18 @@ beneficiosBtns.map((e) => {
     e.addEventListener('click', () => {
         let paragrafo = e.nextElementSibling
         let img = e.children[0]
+        let botao = e.parentElement
+
+        let alturaParagrafo = paragrafo.offsetHeight
 
         paragrafo.classList.toggle('mostrar')
 
         if (paragrafo.classList.contains('mostrar')) {
             img.classList.add('girar')
+            botao.style.height = `${alturaParagrafo + 55}px`
         } else {
             img.classList.remove('girar')
+            botao.style.height = `${55}px`
         }
     })
 })
@@ -24,7 +29,6 @@ duvidasBtns.map((e) => {
         let paragrafo = e.nextElementSibling
 
         let alturaParagrafo = paragrafo.offsetHeight
-
 
         if (botao.classList.contains('mostrar') == false) {
             duvidasBtns.map((k) => {
