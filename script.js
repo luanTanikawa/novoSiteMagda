@@ -59,3 +59,26 @@ duvidasBtns.map((e) => {
     })
 })
 
+var offset = 130; 
+
+function handleMenuClick(event) {
+  event.preventDefault(); 
+  
+  var targetId = event.target.getAttribute("href"); 
+  var targetElement = document.querySelector(targetId); 
+
+  if (targetElement) {
+    var targetOffsetTop = targetElement.offsetTop - offset; 
+
+    window.scrollTo({
+      top: targetOffsetTop,
+      behavior: "smooth"
+    });
+  }
+}
+
+
+var menuLinks = document.querySelectorAll(".menu-area .content nav ul a");
+for (var i = 0; i < menuLinks.length; i++) {
+  menuLinks[i].addEventListener("click", handleMenuClick);
+}
