@@ -93,10 +93,9 @@ footer .content {
     .section1 .content {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         margin: 0px auto;
-        padding: 120px 0px 50px 0px;
+        padding: 150px 0px 50px 0px;
     }
 
     .section1 .text-img {
@@ -185,7 +184,7 @@ footer .content {
     }
 
     .section2 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -247,7 +246,7 @@ footer .content {
 
 
     .section3 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -343,7 +342,7 @@ footer .content {
     }
 
     .section4 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -501,7 +500,7 @@ footer .content {
     }
     
     .section5 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -560,7 +559,7 @@ footer .content {
     }
 
     .section6 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -651,7 +650,7 @@ footer .content {
 
 
     .section7 .content {
-        padding: 70px 15px;
+        padding: 50px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -784,10 +783,6 @@ footer .content {
         width: 35px;
         height: 35px;
     }
-
-    .section1 .content {
-        padding: 150px 0px 50px 0px;
-    }
     
     .section1 .text-area h3 {
         font-size: 22px;
@@ -800,6 +795,15 @@ footer .content {
 
 @media (min-width: 768px) {
     
+    .section3 .content,
+    .section4 .content,
+    .section5 .content,
+    .section6 .content,
+    .section7 .content {
+        padding: 70px 15px;
+    }
+
+
     .menu-area .logo {
         width: 350px;
     }
