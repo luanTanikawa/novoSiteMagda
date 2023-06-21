@@ -1,5 +1,4 @@
 let beneficiosBtns = [...document.querySelectorAll('.section4 .content .TCC .box .botao')]
-
 let duvidasBtns = [...document.querySelectorAll('.section7 .duvidas-box .botao')]
 
 beneficiosBtns.map((e) => {
@@ -59,13 +58,33 @@ duvidasBtns.map((e) => {
     })
 })
 
-var offset = 130; 
+
+let btnMenu = document.querySelector('.menu-btn')
+let btnMenuArea = document.querySelector('.btn-area-celular')
+
+var menuLinks = document.querySelectorAll(".menu-area .content .btn-area ul a");
+var menuLinksCelular = document.querySelectorAll(".btn-area-celular ul a");
+
+for (var i = 0; i < menuLinks.length; i++) {
+  menuLinks[i].addEventListener("click", handleMenuClick);
+}
+
+for (var i = 0; i < menuLinksCelular.length; i++) {
+    menuLinksCelular[i].addEventListener("click", handleMenuClickCel);
+}
+
+btnMenu.addEventListener('click', () => {
+    btnMenuArea.classList.add('mostrar')
+})
 
 function handleMenuClick(event) {
   event.preventDefault(); 
-  
+
+  var menu = document.querySelector('.menu-area .content')
   var targetId = event.target.getAttribute("href"); 
   var targetElement = document.querySelector(targetId); 
+
+  var offset = menu.offsetHeight; 
 
   if (targetElement) {
     var targetOffsetTop = targetElement.offsetTop - offset; 
@@ -77,8 +96,23 @@ function handleMenuClick(event) {
   }
 }
 
+function handleMenuClickCel(event) {
+    event.preventDefault(); 
+    
+    var menu = document.querySelector('.menu-area .content')
+    var targetId = event.target.getAttribute("href"); 
+    var targetElement = document.querySelector(targetId); 
 
-var menuLinks = document.querySelectorAll(".menu-area .content nav ul a");
-for (var i = 0; i < menuLinks.length; i++) {
-  menuLinks[i].addEventListener("click", handleMenuClick);
-}
+    var offset = menu.offsetHeight; 
+    
+    if (targetElement) {
+      var targetOffsetTop = targetElement.offsetTop - offset; 
+  
+      window.scrollTo({
+        top: targetOffsetTop,
+        behavior: "smooth"
+      });
+    }
+
+    btnMenuArea.classList.remove('mostrar')
+  }

@@ -7,7 +7,7 @@
 }
 
 .mostrar {
-    display: block !important;
+    display: flex !important;
 }
 
 .girar {
@@ -28,9 +28,60 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     background-color: #fff9fd;
     
+}
+
+main .btn-area-celular{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(54, 54, 54, 0.295);
+    transition: ease 1.5s;
+
+}
+
+main .btn-area-celular ul{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    text-align: center;
+    width: 80%;
+}
+
+main .btn-area-celular ul a{
+    text-decoration: none;
+    color: #000;
+    background-color: #cff5ff;
+    margin: 15px 0px;
+    padding: 15px 0px;
 }
 
 .menu-area {
@@ -38,7 +89,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 9990;
     background-color: #fff9fd;
     box-shadow: 2px 0px 5px #000;
 
@@ -82,7 +133,7 @@ footer .content {
         height: 30px;
     }
 
-    .menu-area .content nav {
+    .menu-area .content .btn-area {
         display: none;
     }
 
@@ -838,12 +889,12 @@ footer .content {
         width: 45px;
     }
 
-    .menu-area .content nav {
+    .menu-area .content .btn-area {
         display: block;
         margin-top: 30px;
     }
 
-    .menu-area .content nav ul{
+    .menu-area .content .btn-area ul{
         display: flex;
         list-style: none;
         justify-content: center;
@@ -851,14 +902,14 @@ footer .content {
         font-size: 18px;
     }
 
-    .menu-area .content nav ul a {
+    .menu-area .content .btn-area ul a {
         text-decoration: none;
         color: #000;
         padding: 10px 15px;
         transition: ease 0.2s;
     }
 
-    .menu-area .content nav ul a:hover{
+    .menu-area .content .btn-area ul a:hover{
         background-color: #8cd0e3;
     }
 
@@ -875,7 +926,7 @@ footer .content {
     }
 
     .section1 .content {
-        padding: 200px 0px 50px;
+        padding: 250px 0px 50px;
     }
 
     .section1 .text-area h3 {
