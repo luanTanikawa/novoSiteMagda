@@ -462,7 +462,7 @@ footer .content {
 
 
     .section4 .content .TCC .tcc-box-area {
-        margin: 50px auto ;
+        margin: 35px auto 0px auto ;
         max-width: 950px;
     }
 
@@ -521,7 +521,7 @@ footer .content {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 50px auto;
+        margin: 35px auto;
     }
 
     .section4 .content .Tratamento .tratamento-area img {
