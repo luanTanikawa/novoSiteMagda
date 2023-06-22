@@ -7,6 +7,10 @@
 }
 
 .mostrar {
+    display: block !important;
+}
+
+.mostrarMenu {
     display: flex !important;
 }
 
@@ -56,16 +60,23 @@ body {
 main .btn-area-celular{
     width: 100vw;
     height: 100vh;
+
     display: none;
+    flex-direction: column;
+    justify-content:  space-evenly;
     align-items: center;
-    justify-content: center;
+
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: rgba(54, 54, 54, 0.295);
+    background-color: rgba(54, 54, 54, 0.747);
     transition: ease 1.5s;
+}
 
+main .btn-area-celular .fechar-menu {
+    width: 50px;
+    rotate: 45deg;
 }
 
 main .btn-area-celular ul{
@@ -82,7 +93,19 @@ main .btn-area-celular ul a{
     background-color: #cff5ff;
     margin: 15px 0px;
     padding: 15px 0px;
+    border-radius: 20px;
 }
+
+main .btn-area-celular .social-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+main .btn-area-celular .social-area img{
+    width: 70px;
+}
+
 
 .menu-area {
     width: 100vw;
@@ -846,15 +869,6 @@ footer .content {
 
 @media (min-width: 768px) {
     
-    .section3 .content,
-    .section4 .content,
-    .section5 .content,
-    .section6 .content,
-    .section7 .content {
-        padding: 70px 15px;
-    }
-
-
     .menu-area .logo {
         width: 350px;
     }

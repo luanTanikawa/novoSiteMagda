@@ -61,6 +61,7 @@ duvidasBtns.map((e) => {
 
 let btnMenu = document.querySelector('.menu-btn')
 let btnMenuArea = document.querySelector('.btn-area-celular')
+let btnFecharMenu = document.querySelector('.fechar-menu')
 
 var menuLinks = document.querySelectorAll(".menu-area .content .btn-area ul a");
 var menuLinksCelular = document.querySelectorAll(".btn-area-celular ul a");
@@ -74,7 +75,11 @@ for (var i = 0; i < menuLinksCelular.length; i++) {
 }
 
 btnMenu.addEventListener('click', () => {
-    btnMenuArea.classList.add('mostrar')
+    btnMenuArea.classList.add('mostrarMenu')
+})
+
+btnFecharMenu.addEventListener('click', () => {
+    btnMenuArea.classList.remove('mostrarMenu')
 })
 
 function handleMenuClick(event) {
@@ -114,5 +119,5 @@ function handleMenuClickCel(event) {
       });
     }
 
-    btnMenuArea.classList.remove('mostrar')
+    btnMenuArea.classList.remove('mostrarMenu')
   }
