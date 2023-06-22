@@ -57,6 +57,15 @@ body {
     
 }
 
+.btn-fixo-whats {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9990;
+}
+
+
+
 main .btn-area-celular{
     width: 100vw;
     height: 100vh;
@@ -147,6 +156,11 @@ footer .content {
 
 @media(min-width: 320px) {
     
+    .btn-fixo-whats img {
+        width: 60px;
+        margin: 10px;
+    }
+
     .menu-area .logo {
         width: 250px;
     }
@@ -869,6 +883,11 @@ footer .content {
 
 @media (min-width: 768px) {
     
+    .btn-fixo-whats img {
+        width: 70px;
+        margin: 15px;
+    }
+
     .menu-area .logo {
         width: 350px;
     }
@@ -905,7 +924,7 @@ footer .content {
 
     .menu-area .content .btn-area {
         display: block;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .menu-area .content .btn-area ul{
@@ -1053,6 +1072,11 @@ footer .content {
 
 
 @media (min-width: 1024px) {  
+
+    .btn-fixo-whats img {
+        width: 80px;
+        margin: 15px;
+    }
 
     .button-area a{       
         font-size: 20px;
