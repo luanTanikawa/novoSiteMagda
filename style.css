@@ -11,7 +11,7 @@
 }
 
 .mostrarMenu {
-    display: flex !important;
+    margin-left: 0px !important;
 }
 
 .girar {
@@ -71,7 +71,7 @@ main .btn-area-celular{
     width: 100vw;
     height: 100vh;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content:  space-evenly;
     align-items: center;
@@ -81,7 +81,9 @@ main .btn-area-celular{
     left: 0;
     z-index: 9999;
     background-color: rgba(54, 54, 54, 0.747);
-    transition: ease 1.5s;
+    transition: ease 0.5s;
+
+    margin-left: 100%;
 }
 
 main .btn-area-celular .fechar-menu {
@@ -113,7 +115,7 @@ main .btn-area-celular .social-area {
 }
 
 main .btn-area-celular .social-area img{
-    width: 70px;
+    width: 60px;
 }
 
 
@@ -1081,6 +1083,12 @@ footer .content {
     .btn-fixo-whats img {
         width: 80px;
         margin: 25px;
+        transition: ease 0.2s;
+    }
+
+    .btn-fixo-whats img:hover {
+        width: 90px;
+        margin: 20px;
     }
 
     .button-area a{       
