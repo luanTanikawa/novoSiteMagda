@@ -18,6 +18,7 @@
     rotate: 45deg;
 }
 
+
 @keyframes grow {
     0% {
         font-size: 16px;
@@ -233,17 +234,25 @@ footer .content {
         font-weight: 500;
         text-decoration: none;
         padding: 10px;
-        background-color: #8cd0e3;
+        background-color: #00c03d;
         border-radius: 25px;
         color: #fff;
         font-size: 14px;
         transition: ease 0.2s;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .button-area a img{
+        width: 45px;
+        margin-right: 10px;
     }
 
     .button-area a:hover {
         padding: 18px;
-        font-size: 21px;
-        border-radius: 32px;
+        font-size: 26px;
+        border-radius: 28px;
     }
 
     .section1 .picture-area {
@@ -885,7 +894,7 @@ footer .content {
     
     .btn-fixo-whats img {
         width: 70px;
-        margin: 15px;
+        margin: 20px;
     }
 
     .menu-area .logo {
@@ -1018,6 +1027,7 @@ footer .content {
 
     .section4 .content .minhaAbordagemTitle h2 {
         font-size: 21px;
+        margin-bottom: 10px;
     }
 
     .section4 .content .oQueE p, 
@@ -1075,11 +1085,11 @@ footer .content {
 
     .btn-fixo-whats img {
         width: 80px;
-        margin: 15px;
+        margin: 25px;
     }
 
     .button-area a{       
-        font-size: 20px;
+        font-size: 24px;
     }
    
    
