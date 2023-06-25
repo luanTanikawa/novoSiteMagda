@@ -249,12 +249,6 @@ footer .content {
         margin-right: 10px;
     }
 
-    .button-area a:hover {
-        padding: 18px;
-        font-size: 24px;
-        border-radius: 28px;
-    }
-
     .section1 .picture-area {
         display: flex;
         justify-content: flex-end;
@@ -464,6 +458,7 @@ footer .content {
 
     .section4 .content .minhaAbordagemTitle h2{
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .section4 .content .oQueE p,
@@ -1090,6 +1085,12 @@ footer .content {
 
     .button-area a{       
         font-size: 22px;
+    }
+
+    .button-area a:hover {
+        padding: 18px;
+        font-size: 24px;
+        border-radius: 28px;
     }
    
    
